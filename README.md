@@ -1,0 +1,6 @@
+# SILVIC
+This project is a Progressive Web Application (PWA) designed to crowdsource real-time data on Unidentified Aerial Phenomena (UAPs) and other spatial anomalies. Using decentralized technologies like WebRTC, Helia/IPFS, and IndexedDB, the app ensures data integrity and accessibility while thwarting attempts at centralized disruption by bad-actors.
+
+Users can record and share sightings with geolocation, sensor data, and visual evidence, all visualized on a 3D interactive globe of the Earth. The app integrates APIs for known space launches, satellite orbits, commercial flight paths, and celestial events to help isolate, document and understand genuine transmedium anomalies. A collaborative Wiki sets community-driven standards for data collection and analysis, ensuring consistency and reliability.
+
+The app also features location-based and anomaly-based communication powered by AI for speech-to-text-to-speech conversion for eliminating background noise, accenting, and on-the-fly translation, enhancing accessibility and inclusivity. With a pay-what-you-want revenue model, the project aims to sustain itself while supporting its contributors' dedication to uncovering the mysteries of our universe.

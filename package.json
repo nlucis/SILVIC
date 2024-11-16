@@ -1,0 +1,19 @@
+{
+  "name": "silvic-initiative",
+  "description": "The Standard for Identification of Luminous Vessels, and Intentional Constructs",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --https --cors -c ./vite.config.ts && tslint --exclude ./node_modules",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cesium": "^1.116.0"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0",
+    "@vitejs/plugin-basic-ssl": "^1.1.0"
+  },
+  "peerDependencies": {}
+}

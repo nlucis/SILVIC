@@ -1,4 +1,4 @@
-# Large-File Storage Configuration
+# Large-File Storage Configuration - Vox
 *.wav filter=lfs diff=lfs merge=lfs -text
 
 ## GITATTRIBUTES FOR WEB PROJECTS

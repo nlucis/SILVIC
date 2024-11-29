@@ -5,6 +5,8 @@ Users can record and share sightings with geolocation, sensor data, and visual e
 
 The app also features location-based and anomaly-based communication powered by AI for speech-to-text-to-speech conversion for eliminating background noise, accenting, and on-the-fly translation, enhancing accessibility and inclusivity. With a pay-what-you-want revenue model, the project aims to sustain itself while supporting its contributors' dedication to uncovering the mysteries of our universe.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C516QB0E)
+
 ## Getting Started
 First, run the development server:
 

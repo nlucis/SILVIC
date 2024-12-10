@@ -1,6 +1,9 @@
+@import url('./styles/page.css');
+
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
+@tailwind components;
+
 
 :root {
   --background: #ffffff;

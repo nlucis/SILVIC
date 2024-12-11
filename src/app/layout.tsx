@@ -74,7 +74,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistMono.variable} antialiased`}>
-        <main id='app' className={ 'w-full h-full' }>
+        <main id='app' className={ 'w-full h-full fixed' }>
           {children}
         </main>
       </body>

@@ -1,4 +1,5 @@
 @import url('./styles/page.css');
+@import url('cesium/Build/Cesium/Widgets/widgets.css');
 
 @tailwind base;
 @tailwind utilities;

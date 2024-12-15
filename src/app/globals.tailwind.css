@@ -1,5 +1,5 @@
 @import url('./styles/page.css');
-@import url('cesium/Build/Cesium/Widgets/widgets.css');
+@import url('mapbox-gl/dist/mapbox-gl.css');
 
 @tailwind base;
 @tailwind utilities;

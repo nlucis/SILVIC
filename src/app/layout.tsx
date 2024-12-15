@@ -73,7 +73,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <script src="https://cesium.com/downloads/cesiumjs/releases/1.124/Build/Cesium/Cesium.js" async></script>
       <body className={`${geistMono.variable} antialiased`}>
         <main id='app' className={ 'w-full h-full fixed' }>
           {children}

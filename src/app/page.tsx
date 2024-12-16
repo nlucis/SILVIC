@@ -65,7 +65,29 @@ const App: NextPage = () => {
     
   }, []);
 
-  return <div ref={ _mapContainer } style={{ width: '100vw', height: '100vh' }}></div>
+  const mvSize = 450;
+
+  return <>
+    <div ref={ _mapContainer } style={{ width: '100vw', height: '100vh' }}></div>
+    <canvas id='monovision' style={{ 
+      width: `${mvSize}px`, 
+      height: `${mvSize}px`,
+      borderRadius: '50%',
+      border: '6px solid #000',
+      position: 'absolute',
+      left: `calc(50% - ${mvSize / 2}px)`,
+      top: `calc(50% - ${mvSize / 2}px)`,
+      backgroundColor: '#FFAC00',
+      boxShadow: '0px 0px 9px 6px #000',
+      outline: 'solid 3px #FFF'
+    }}></canvas>
+    <object type="image/svg+xml" data="./components/client/Interactron.svg" style={{ 
+      position: 'absolute', 
+      top: '50wh',
+      left: '50vw',
+      pointerEvents: 'none' 
+    }}></object>
+  </>;
 }
 
 export default App;

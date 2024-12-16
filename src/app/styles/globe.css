@@ -1,0 +1,17 @@
+
+* {
+  transition: opacity 0.24s ease-in-out;
+}
+
+#monovision {
+  opacity: 0.24;
+  cursor: none;
+}
+
+#monovision:active {
+  background-color: red;
+}
+
+#monovision:hover {
+  opacity: 1;
+}

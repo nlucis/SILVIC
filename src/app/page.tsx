@@ -9,6 +9,7 @@ import Mapbox, {
   NavigationControlOptions 
 } from 'mapbox-gl';
 import { NextPage } from 'next';
+import Image from 'next/image';
 import { MAP } from 'res/lib/constants';
 
 
@@ -68,8 +69,10 @@ const App: NextPage = () => {
   return <>
     <div ref={ _mapContainer } style={{ width: '100vw', height: '100vh' }}></div>
     <div id='telemetry'></div>
-    <canvas id='monovision'></canvas>
-    <img id='interactron' src='/assets/interactron.svg' />
+    <div id='monocle'>
+      <canvas id='monovision'></canvas>
+    </div>
+    <Image id='interactron' src='/assets/interactron.svg' alt='interactron' width={ 100 } height={ 100 } />
   </>;
 }
 

@@ -3,15 +3,47 @@
   transition: opacity 0.24s ease-in-out;
 }
 
+#telemetry {
+  width: 100pt;
+  height: 100pt;
+  position: absolute;
+  left: calc(50% - 50pt);
+  top: calc(15% - 50pt);
+  background-color: #000;
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  pointer-events: none;
+
+  box-shadow: 0px 0px 9px 6px #000;
+  outline: solid 3px #FFF;
+}
+
 #monovision {
   opacity: 0.24;
   cursor: none;
-}
+  width: 300pt; 
+  height: 300pt;
+  border-radius: 50%;
+  border: 6px solid #000;
+  position: absolute;
+  left: calc(50% - 150pt);
+  top: calc(50% - 150pt);
+  background-color: #FFAC00;
 
-#monovision:active {
-  background-color: red;
+  box-shadow: 0px 0px 9px 6px #000;
+  outline: solid 3px #FFF;
 }
 
 #monovision:hover {
   opacity: 1;
+}
+
+#interactron {
+  width: 100pt;
+  height: 100pt;
+  position: absolute;
+  left: calc(50% - 50pt);
+  bottom: calc(15% - 50pt);
+  scale: 1.618;
+  pointer-events: visibleFill;
 }
